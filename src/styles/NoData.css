@@ -1,0 +1,25 @@
+.NoData
+{
+    padding: var(--huge-sp) var(--large-sp);
+}
+.NoData *
+{
+    color: gray;
+    text-align: center;    
+}
+.NoData .MuiSvgIcon-root
+{    
+    fill: gray;    
+}
+.nodata-info
+{
+
+}
+.nodata-info h1
+{
+    
+}
+.nodata-info label
+{
+
+}

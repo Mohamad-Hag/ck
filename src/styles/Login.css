@@ -1,0 +1,52 @@
+.Login
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-form
+{    
+    overflow: hidden;
+    background-color: var(--bg);
+    border-radius: var(--medium-sp);
+    box-shadow: var(--main-sh);
+    border: 1px solid var(--neu);
+    max-width: 450px;    
+}
+.login-intro
+{
+    text-align: center;
+    background-image: url("../../public/assets/home-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    overflow: hidden;
+    position: relative;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--huge-sp);
+}
+.login-intro-overlay
+{
+    position: absolute;
+    background: #ffffff95;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;    
+    z-index: 1;
+    border: 1px solid var(--neu);
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+.login-intro-welcome
+{
+    position: relative;
+    z-index: 2;
+}
+.form-inner
+{
+    padding: var(--huge-sp);
+}

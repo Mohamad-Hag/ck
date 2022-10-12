@@ -1,0 +1,5 @@
+.Footer
+{
+    padding: var(--small-sp) var(--huge-sp);
+    background-color: var(--accent-light);    
+}

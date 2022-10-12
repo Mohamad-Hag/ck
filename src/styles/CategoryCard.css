@@ -1,0 +1,47 @@
+.CategoryCard
+{    
+    border-radius: var(--tiny-sp) !important;
+    width: 100%;
+    background-color: #f2f2f2 !important;
+    border: 1px solid var(--neu) !important;
+}
+.CategoryCard > .MuiStack-root
+{
+    padding: var(--medium-sp);
+    width: 100%;
+}
+.categorycard-img
+{
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    border-radius: var(--tiny-sp);
+    box-shadow: var(--main-sh);
+}
+.categorycard-info
+{
+    flex: 1;
+    text-align: left;
+    text-transform: none;
+}
+.categorycard-controls
+{
+    text-align: center;
+}
+.categorycard-controls .MuiButtonBase-root
+{
+    width: 200px;
+}
+.categorycard-controls label
+{
+    font-size: var(--b2);
+    color: green;
+    display: flex;
+    align-items: center;    
+}
+.categorycard-controls label svg
+{
+    height: 1rem;
+    fill: green;
+}

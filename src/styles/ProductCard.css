@@ -1,0 +1,20 @@
+.ProductCard
+{
+    width: 100%;   
+    padding: var(--medium-sp);    
+    border: 1px solid var(--neu);
+    border-radius: var(--tiny-sp);
+    background-color: var(--bg);
+    box-shadow: var(--main-sh);
+}
+.productcard-img
+{
+    background-size: cover;
+    background-position: center;
+    height: 250px;    
+    border-radius: var(--tiny-sp);
+}
+.productcard-info
+{
+
+}

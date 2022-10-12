@@ -1,0 +1,32 @@
+.Product
+{
+
+}
+.products-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--medium-sp);
+    flex: 1 1 0%;
+}
+.admin-stat p
+{
+    text-transform: uppercase !important;
+    color: var(--bg);
+}
+.admin-stat
+{
+    text-align: center;
+    padding: var(--large-sp) var(--huge-sp);
+    height: 150px;    
+    background: linear-gradient(35deg, var(--accent-main), rgb(255, 0, 157));
+    border-radius: var(--medium-sp);
+    font-weight: bold;
+    font-size: var(--h2);
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--bg);
+}

@@ -1,0 +1,30 @@
+.Divider
+{
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 79px auto;
+    grid-template-areas: 
+    "header"
+    "content"    
+}
+.divider-item
+{
+    
+}
+.divider-header
+{
+    grid-area: header;
+}
+.divider-content
+{
+    grid-area: content;
+    width: 100%;
+    max-width: 1280px;
+    padding: var(--medium-sp) var(--huge-sp);    
+    margin-inline: auto;    
+}
+.divider-footer
+{
+    
+}

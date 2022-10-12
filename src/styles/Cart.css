@@ -1,0 +1,12 @@
+.Cart
+{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.cart-total
+{
+}
+.cart-total span
+{
+    color: green;
+}

@@ -1,0 +1,16 @@
+.CartItem
+{
+    padding: var(--medium-sp);
+    background-color: var(--bg);
+    border-radius: var(--medium-sp);
+    border: 1px solid var(--neu);
+    box-shadow: var(--main-sh);
+}
+.cartitem-img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: var(--medium-sp);
+    background-position: center;
+    background-size: cover;
+}

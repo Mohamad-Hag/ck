@@ -1,0 +1,11 @@
+.Admin
+{
+    height: 100vh;
+}
+.admin-stats
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--medium-sp);
+    flex: 1 1 0%;
+}

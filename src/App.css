@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*
+{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  outline: none;  
+  font-size: var(--b1);
+  color: var(--txt);
+  text-decoration: none;
+  transition: .3s;
+  box-sizing: border-box;
+  text-transform: none !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, h2, h3, h4, h5, h6
+{
+  font-family: var(--heading-f);
+  letter-spacing: 1px;
 }
+h1, h1 *
+{
+  font-size: var(--h1);
+}
+h2, h2 *
+{
+  font-size: var(--h2);
+}
+h3, h3 *
+{
+  font-size: var(--h3);
+}
+a
+{
 
-.App-header {
-  background-color: #282c34;
+}
+a, img, svg
+{
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+}
+:root
+{
+  /* COLORS */
+  --accent: 210, 79%, 46%; /* HSL Values*/
+  --accent-alpha: 0.6;
+  --accent-main: hsl(var(--accent));
+  --accent-light: hsl(var(--accent), var(--accent-alpha));
+  --neu: #cccccc;
+  --neu-light: #eeeeee;
+  --bg: #ffffff;
+  --bg-dark: #f2f2f2;
+  --txt: #222222;
+
+  /* SPACING */
+  --micro-sp: 0.25rem;
+  --tiny-sp: 0.5rem;
+  --small-sp: 0.75rem;
+  --medium-sp: 1rem;
+  --large-sp: 1.5rem;
+  --big-sp: 1.75rem;
+  --huge-sp: 2rem;  
+
+  /* FONTS */
+  --heading-f: 'Roboto Slab', serif;
+  --body-f: 'Roboto', sans-serif;
+
+  /* Font Sizes */
+  --h1: 2.5rem;
+  --h2: 2rem;
+  --h3: 1.5rem;  
+  --b1: 1rem;
+  --b2: 0.75rem;
+  --b3: 0.5rem;
+
+  /* SHADOW */
+  --main-sh: 5px 10px 20px 0 #00000010;
+  
+}
+html
+{
+  font-size: 18px;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+body
+{
+  height: 100%;
+  background-color: var(--bg-dark);
+  background-image: url("../public/assets/bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#root
+{
+  height: 100%;
+}
+::-moz-focus-inner, ::-moz-focus-outer
+{
+  border: none;
 }

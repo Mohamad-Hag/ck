@@ -1,0 +1,11 @@
+.Logo *, .Logo
+{
+    font-size: var(--h2);   
+    font-family: 'Times New Roman', Times, serif;
+    user-select: none;
+    -moz-user-select: none;
+}
+.Logo span
+{
+    color: var(--accent-main);
+}
